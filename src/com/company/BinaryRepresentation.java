@@ -5,6 +5,7 @@ import java.util.ArrayList;
 public class BinaryRepresentation {
 
     public static void representAsBinary(int n){
+        // This method converts a decimal number into its binary representation
         if(n>0){
             System.out.println("The Binary representation for " + n + ": ");
             ArrayList<Integer> rep = new ArrayList<>();
