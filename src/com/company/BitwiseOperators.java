@@ -60,4 +60,39 @@ public class BitwiseOperators {
             System.out.println("NO");
         }
     }
+
+    public static void printFirstNNumbersWithTwoSetBits(int n){
+        int x = 1;
+
+        while(n>0){
+            int y = 0;
+            while(y<x){
+                System.out.print((1<<x) + (1<<y) + " ");
+                n--;
+                if(n==0)
+                    return;
+                y++;
+            }
+            x++;
+        }
+    }
+
+
+    public static void getSumOfBitDifferencesInAnArray(int[] arr){
+        int res = 0;
+        for(int i=0; i<32; i++){
+            int count = 0;
+
+            for(int j=0; j<arr.length; j++){
+                if((arr[j] & (1<<i)) == 0)
+                    count++;
+            }
+            res = res + (count * (arr.length-count) * 2);
+        }
+
+        System.out.println(res);
+    }
+
+
+
 }

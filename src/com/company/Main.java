@@ -21,10 +21,14 @@ public class Main {
 //        BitwiseOperators.checkIfOddOrEven(100);
 //          BitwiseOperators.setNthBit(240, 3);
 //          BitwiseOperators.unsetNthBith(240, 4);
-          BitwiseOperators.toggleNthBit(162, 3);
+//          BitwiseOperators.toggleNthBit(162, 3);
 //          BitwiseOperators.toggleNthBit(240, 5);
-        BitwiseOperators.checkIfPowerOfTwo(32);
-        BitwiseOperators.checkIfPowerOfTwo(33);
+//        BitwiseOperators.checkIfPowerOfTwo(32);
+//        BitwiseOperators.checkIfPowerOfTwo(33);
 
+//        BitwiseOperators.printFirstNNumbersWithTwoSetBits(5);
+        int[] a = {1,3,5};
+        //BitwiseOperators.getSumOfBitDifferencesInAnArray(a);
+        System.out.println(PascalTriangle.nthRowOfPascalTriangle(4));
     }
 }
