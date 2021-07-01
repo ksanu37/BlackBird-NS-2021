@@ -1,5 +1,8 @@
 package com.company;
 
+import com.company.JavaCollections.ArrayListExamples;
+
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
@@ -27,8 +30,11 @@ public class Main {
 //        BitwiseOperators.checkIfPowerOfTwo(33);
 
 //        BitwiseOperators.printFirstNNumbersWithTwoSetBits(5);
-        int[] a = {1,3,5};
+        //int[] a = {1,3,5};
         //BitwiseOperators.getSumOfBitDifferencesInAnArray(a);
-        System.out.println(PascalTriangle.nthRowOfPascalTriangle(4));
+        //System.out.println(PascalTriangle.nthRowOfPascalTriangle(4));
+
+        ArrayList<Integer> ar = new ArrayList<>();
+        ArrayListExamples.ArrayListDefinition();
     }
 }
