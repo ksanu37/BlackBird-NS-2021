@@ -1,6 +1,8 @@
 package com.company;
 
 import com.company.JavaCollections.ArrayListExamples;
+import com.company.JavaCollections.HashTablesExamples;
+import com.company.JavaCollections.VectorExamples;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -34,7 +36,10 @@ public class Main {
         //BitwiseOperators.getSumOfBitDifferencesInAnArray(a);
         //System.out.println(PascalTriangle.nthRowOfPascalTriangle(4));
 
-        ArrayList<Integer> ar = new ArrayList<>();
-        ArrayListExamples.ArrayListDefinition();
+//        ArrayList<Integer> ar = new ArrayList<>();
+//        ArrayListExamples.ArrayListDefinition();
+
+//        VectorExamples.VectorDefinition();
+        HashTablesExamples.HashTableDefinition();
     }
 }

@@ -1,9 +1,6 @@
 package com.company.JavaCollections;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Iterator;
-import java.util.Scanner;
+import java.util.*;
 
 public class ArrayListExamples {
 
@@ -64,12 +61,12 @@ public class ArrayListExamples {
         listOfList.add(arrayList);
         listOfList.add(arrayListSecond);
 
-        for(int i=0; i<listOfList.size(); i++){
-            for(int j=0; j<listOfList.get(i).size(); j++){
-                System.out.print(listOfList.get(i).get(j) + " ");
-            }
-            System.out.println();
-        }
+//        for(int i=0; i<listOfList.size(); i++){
+//            for(int j=0; j<listOfList.get(i).size(); j++){
+//                System.out.print(listOfList.get(i).get(j) + " ");
+//            }
+//            System.out.println();
+//        }
 
 //        System.out.println(listOfList);
 
@@ -83,6 +80,42 @@ public class ArrayListExamples {
 //
 //
 //        System.out.println(charList);
+
+
+
+
+        ArrayList<Object> listOne = new ArrayList<>();
+        listOne.add(10);
+        listOne.add("Ram");
+        listOne.add('z');
+
+        System.out.println(listOne);
+
+        ArrayList listTwo = new ArrayList();
+        listTwo.add(10);
+        listTwo.add("Ram");
+        listTwo.add('z');
+
+        String name = "Ram";
+        System.out.println(name.getClass());
+
+        System.out.println(listTwo);
+
+
+        ArrayList<Integer> listThree = new ArrayList<>();
+        listThree.add(10);
+        listThree.add(60);
+        listThree.add(30);
+        listThree.add(40);
+        listThree.add(90);
+        listThree.add(18);
+
+        Collections.sort(listThree);
+        System.out.println(listThree);
+
+        Collections.sort(listThree, Collections.reverseOrder());
+        System.out.println(listThree);
+
 
 
 
