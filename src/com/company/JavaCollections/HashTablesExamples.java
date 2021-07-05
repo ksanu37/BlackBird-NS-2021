@@ -7,8 +7,6 @@ import java.util.Map;
 public class HashTablesExamples {
 
     public static void HashTableDefinition(){
-        //String, Boolean
-
         ArrayList<String> nameList = new ArrayList<>();
         nameList.add("Sachin");
         nameList.add("Yuvraj");
@@ -27,7 +25,7 @@ public class HashTablesExamples {
         nameTable.put("Flintoff", false);
         nameTable.remove("Flintoff");
 
-        int [] arr = {1,2,3,4,5, 5,5,5,5,5, 8,6,5,5,5,3,3,3,3};
+        int [] arr = {1,2,3,4,5,5,5,5,5,5,8,6,5,5,5,3,3,3,3};
 
         Hashtable<Integer, Integer> countTable = new Hashtable<>();
 
@@ -39,7 +37,6 @@ public class HashTablesExamples {
                 countTable.put(item, 1);
             }
         }
-
         System.out.println(countTable);
     }
 }

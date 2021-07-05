@@ -1,10 +1,12 @@
 package com.company;
 
+import com.company.DSAQuestions.SubArrayWithSumK;
+import com.company.JavaCollections.*;
 import com.company.JavaCollections.ArrayListExamples;
-import com.company.JavaCollections.HashTablesExamples;
-import com.company.JavaCollections.VectorExamples;
+import com.company.JavaConcepts.StringExamples;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Scanner;
 
 public class Main {
@@ -40,6 +42,13 @@ public class Main {
 //        ArrayListExamples.ArrayListDefinition();
 
 //        VectorExamples.VectorDefinition();
-        HashTablesExamples.HashTableDefinition();
+//        HashTablesExamples.HashTableDefinition();
+//        HashMapExamples.HashMapDefinition();
+//        HashSetExamples.HashSetDefinition();
+//        StringExamples.stringExamples();
+
+       int [] a = {10,20,30,40,50};
+       int k = 90;
+        SubArrayWithSumK.subArrayWithSumK(a, k);
     }
 }
