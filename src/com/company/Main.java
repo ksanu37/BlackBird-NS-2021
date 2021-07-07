@@ -4,6 +4,8 @@ import com.company.DSAQuestions.SubArrayWithSumK;
 import com.company.JavaCollections.*;
 import com.company.JavaCollections.ArrayListExamples;
 import com.company.JavaConcepts.StringExamples;
+import com.company.JavaOOP.Animal;
+import com.company.JavaOOP.Student;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -46,9 +48,23 @@ public class Main {
 //        HashMapExamples.HashMapDefinition();
 //        HashSetExamples.HashSetDefinition();
 //        StringExamples.stringExamples();
+//
+//       int [] a = {10,20,30,40,50};
+//       int k = 90;
+////        SubArrayWithSumK.subArrayWithSumK(a, k);
 
-       int [] a = {10,20,30,40,50};
-       int k = 90;
-        SubArrayWithSumK.subArrayWithSumK(a, k);
+
+        String userName = "abcdef";
+        String password = "abcd@1234";
+
+//        Animal animal = new Animal(4, "black", 120f);
+//        animal.no_of_feet = 10;
+//        animal.setColor(userName, password, "red");
+//        System.out.println(animal.no_of_feet);
+//        System.out.println(animal.getColor(userName, password));
+
+        Student s = new Student("Sanu", 10, 1, "Male", "Geography");
+        System.out.println(s.printClass());
+        System.out.println(s.getClass());
     }
 }
